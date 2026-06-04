@@ -59,4 +59,13 @@ else if (strcmp(cmd, "clear")) xungsi ini mengembalikan nilai variabel color ke 
 Kendala: Emulator Bochs tidak dapat dijalankan langsung di lingkungan praktikum (terjadi eror panic / tidak bisa membaca konfigurasi display), sehingga proses simulasi sistem operasi terhambat.
 Solusi: Praktikan mengalihkan emulator dari Bochs ke QEMU (qemu-system-i386). QEMU terbukti lebih stabil dan memiliki kompatibilitas yang jauh lebih baik dalam melakukan emulasi arsitektur x86 16-bit, terutama saat dijalankan di dalam mesin virtual (VM Kali Linux) di atas perangkat keras modern. File floppy.img tetap bisa dieksekusi dengan lancar menggunakan parameter -fda.
 
-  
+
+**Output**
+
+
+<img width="587" height="432" alt="Tangkapan Layar 2026-06-04 pukul 15 26 37" src="https://github.com/user-attachments/assets/683d4906-138b-45de-a05f-c68a092bc492" />
+
+jika diketik clean
+
+<img width="593" height="464" alt="Tangkapan Layar 2026-06-04 pukul 15 27 02" src="https://github.com/user-attachments/assets/b994902a-3711-4389-afa1-8a240e23580f" />
+
